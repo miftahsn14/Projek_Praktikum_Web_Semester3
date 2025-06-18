@@ -1,0 +1,65 @@
+/* .carousel-indicators gambar{
+    width: 70px;
+    display: block;
+}
+.carousel-indicators button{
+    width: max-content!important;
+}
+.carousel-indicators{
+    position: unset;
+} */
+.carousel-inner img {
+    width: 100%;
+    height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+    object-fit: cover;
+}
+
+/* .footer {
+    background-color: #f8f9fa !important;
+    padding: 20px 0 !important;
+    color: #878589 !important;
+    
+}
+.footer .social-icons a {
+    color: #878589 !important;
+    font-size: 24px !important;
+    margin: 0 10px !important;
+    transition: color 0.3s !important;
+    -webkit-transition: color 0.3s !important;
+    -moz-transition: color 0.3s !important;
+    -ms-transition: color 0.3s !important;
+    -o-transition: color 0.3s !important;
+}
+.footer .social-icons a:hover {
+    color: #dfca07 !important;
+}
+.footer-links a {
+    color: #6c757d !important;
+    margin: 0 10px !important;
+    text-decoration: none !important;
+}
+.footer-links a:hover {
+    color: #dfca07 !important;
+} */
+
+.price-book {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-book h5 {
+    margin-right: 10px; /* Jarak antara harga dan tombol */
+}
+
+/* .time-display {
+    font-size: 14px;
+    color: #666;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    display: inline-block;
+} */
+
+
+

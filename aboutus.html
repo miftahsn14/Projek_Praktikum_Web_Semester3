@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <style>
+       body {  
+            opacity: 0; 
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .btn-back {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+     
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            top: 0;
+            z-index: 10;
+        }
+
+        .navbar .tulisan h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            font-family: sans-serif;
+        }
+
+
+        .hero-section {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero-overlay h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            opacity: 87%;
+            
+        }
+
+        .hero-overlay p {
+            opacity: 80%;
+            font-family: ganeva;
+            font-size: 17px;
+        }
+
+        .content-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content-section h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            color: #555;
+            font-family: ganeva;
+            font-size: 17px;
+        }
+
+        .offer-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            gap: 30px;
+            background-color: #fff7ea;
+        }
+
+        .offer-image {
+            width: 300px;
+            height: 400px;
+            border-radius: 15px;
+            object-fit: cover;
+            margin-left: -200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        
+        }
+
+
+        .offer-text {
+            max-width: 600px;
+        }
+
+        .offer-text h2 {
+            color: #28a745;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .offer-text h1 {
+        
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .offer-text p {
+            color: #555;
+            font-family: ganeva;
+            font-size: 17px;
+        }
+
+        .offer-text li {
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+  
+     
+    <nav class="navbar">
+        <a href="dashboard.php" class="btn btn-danger btn-back">
+            <i class="bi bi-arrow-left"></i> Back
+        </a>
+        
+        <div class="tulisan">
+            <h1><b>About Us</b></h1>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <video autoplay muted loop class="hero-video">
+            <source src="gambar/pesawat.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay">
+            <h1>Matrix Tour</h1>
+            <p>Welcome to <strong>Matrix Tour</strong>, where dreams meet destinations! Founded with a passion for
+                travel and a dedication to creating unforgettable experiences, Matrix Tour is your trusted partner for
+                exploring the world.
+            Our mission is to transform ordinary vacations into extraordinary memories. We strive to provide
+                personalized, high-quality travel services that meet the unique needs and desires of each traveler.
+                Whether you're seeking adventure, relaxation, or cultural exploration, we're here to make your dream
+                journey come true.</p>
+        </div>
+    </section>
+
+    
+    <section class="content-section">
+        <h2><b>Why Choose Us?</b></h2>
+        <p>At Matrix Tour, we believe that travel is not just about visiting new places but about experiencing them. Our
+            team of experienced travel planners and local experts work together to create journeys that allow you to
+            dive into the heart of each location.</p>
+    </section>
+
+    <section class="offer-section">
+    
+        <img src="gambar/image.png" alt="image" class="offer-image">
+
+      
+        <div class="offer-text">
+            <h2>Join Us on an Unforgettable Journey</h2>
+            <h1>What We Offer</h1>
+            <ul>
+                <li><strong>Customized Travel Packages:</strong></li>
+                <p>Choose from a wide array of themed packages tailored for every type of traveler, including
+                    family-friendly tours, luxury escapes, and adventurous expeditions.</p> <br>
+                <li><strong>Detailed Itineraries:</strong> </li>
+                <p>Our itineraries are carefully crafted to provide a comprehensive and enjoyable experience, covering
+                    the best sights and hidden gems of each destination.</p><br>
+                <li><strong>Secure Online Booking:</strong> </li>
+                <p> Book your trip with ease and confidence through our secure online platform.</p><br>
+                <li><strong>24/7 Customer Support:</strong> </li>
+                <p> Our dedicated support team is available around the clock to assist you, from planning your trip to
+                    support during your journey.</p>
+            </ul>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

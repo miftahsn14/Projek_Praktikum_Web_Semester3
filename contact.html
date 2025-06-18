@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+    body {  
+            opacity: 0; 
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .contact-section, .headquarter-section {
+            padding: 2rem 0;
+            text-align: center;
+            
+        }
+        .contact-section h1, .headquarter-section h1 {
+            font-weight: bold;
+            margin-bottom: 1rem;
+            font-family: ganeva;
+        }
+        
+        p{
+            font-size: 17px;
+            font-family: ganeva;
+     
+        }
+        .headquarter-section {
+            background-color: #e3e3e3;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+          
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            top: 0;
+            z-index: 10;
+        }
+
+        .navbar .tulisan h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            font-family: sans-serif;
+        }
+        .btn-back {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="dashboard.php" class="btn btn-danger btn-back">
+            <i class="bi bi-arrow-left"></i> Back
+        </a>
+        
+        <div class="tulisan">
+            <h1><b>Contact Us</b></h1>
+        </div>
+    </nav>
+
+    <div class="contact-section">
+        <div class="container">
+  
+            <p>Please visit the Matrix Tour office nearest to your location.</p>
+            <p><strong>Hotlines:</strong> (021) 1234 5678 / (021) 8765 4321</p>
+            <p><strong>Email:</strong> contact@matrixtour.com</p>
+        </div>
+    </div>
+
+    <div class="headquarter-section">
+        <div class="container">
+            <h2>OUR HEADQUARTER</h2>
+           
+                <img src="gambar/gedung.webp" width="500" height="300" style="border-radius: 10px; border: 2px;">
+
+            <p><strong>Matrix Tour Head Office</strong></p>
+            <p>Jl. Halu No. 123, Yogyakarta, 10160, Indonesia</p>
+            <p>DIY, 10160, Indonesia</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
